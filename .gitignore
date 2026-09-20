@@ -1,0 +1,34 @@
+# --- Python ---
+# compiled bytecode caches, regenerated on every run
+__pycache__/
+*.py[cod]
+
+# virtual environments (never commit these)
+venv/
+.venv/
+env/
+
+# packaging and test artefacts
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# --- Secrets ---
+# real environment file with passwords and API keys
+.env
+# but keep the example file, which holds fake values (! means "do not ignore")
+!.env.example
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# --- Project data and outputs ---
+# raw or downloaded data, regenerable from the ingestion job
+data/
+# figures and exported results
+outputs/
+*.log
