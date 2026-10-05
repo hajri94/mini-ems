@@ -6,5 +6,5 @@ a forecast API and a battery optimizer API.
 
 Data source: Open-Meteo (temperature and solar radiation).
  
-Status: lweek 1 - learning Git. 
+ Status: "update"
 Usage: docker compose up (from week 2).
