@@ -1,0 +1,19 @@
+# Which tool pip uses to build the package (PEP 517 / PEP 518).
+[build-system]
+# setuptools 64 or newer supports editable installs (PEP 660).
+requires = ["setuptools>=64"]
+# The function inside setuptools that pip calls to build.
+build-backend = "setuptools.build_meta"
+
+# Package metadata in the standard format (PEP 621).
+[project]
+# Distribution name: what pip shows. The import name stays mini_ems.
+name = "mini-ems"
+# Version; it will match the git tag v0.1.0 at the end of week 4.
+version = "0.1.0"
+# One-line summary shown by pip show.
+description = "Small battery controller project."
+# Python versions supported; 3.12 matches the Docker image we use later.
+requires-python = ">=3.12"
+# Runtime libraries; empty now, filled in week 2 (database driver, HTTP client).
+dependencies = []
